@@ -1,0 +1,58 @@
+/* Contact Us page */
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0; 
+    border-bottom: 0; 
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white; 
+}
+
+#fb-nav:hover {
+    color: white; 
+    background: #3b5998;  
+}
+
+#insta-nav:hover {
+    color: white; 
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf); 
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: black; 
+    background: white; 
+    border: none; 
+}
+
+.dropdown-menu>li>a:hover {
+    background: white; 
+    text-decoration: underline; 
+}
+
+/* Body */
+
+body{
+    background-image: url(/Contact/contact_background.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+ 
+}
+
+.contact {
+    margin-top: 10%; 
+    margin-bottom: 10%;    
+}
+
+/* Footer */
+
+.footer {
+    height: 25%; 
+    background: black; 
+    color: white;
+    margin-top: 0; 
+    padding-top: 3%; 
+    padding-bottom: 3%;
+}

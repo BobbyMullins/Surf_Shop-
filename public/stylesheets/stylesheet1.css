@@ -1,0 +1,153 @@
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0; 
+    border-bottom: 0; 
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white; 
+}
+
+#fb-nav:hover {
+    color: white; 
+    background: #3b5998;  
+}
+
+#insta-nav:hover {
+    color: white; 
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf); 
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: black; 
+    background: white; 
+    border: none; 
+}
+
+.dropdown-menu>li>a:hover {
+    background: white; 
+    text-decoration: underline; 
+}
+
+/* Body */
+
+body p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+
+/* Headers */
+
+h2 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    text-shadow: -5px 2px 7px rgba(150, 150, 150, 1);
+}
+
+/* Instagram Section */
+
+.instagram-section {
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+}
+
+#instagram-header {
+    color: black;
+    margin-bottom: 5%; 
+    font-size: 4em;
+     
+}
+
+.img-thumbnail {
+    border: none; 
+    padding: 0;
+    margin-top: 3%; 
+}
+
+.img-thumbnail:hover {
+     transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+}
+
+#button {
+    margin-bottom: 15%;
+    margin-top: 7%; 
+}
+
+/* In-Stock Section */
+
+#instock-header {
+    font-size: 4em;
+    margin-bottom: 5%;
+}
+
+img.img-responsive.img-thumbnail {
+    border: none; 
+    box-shadow: none; 
+}
+
+img.img-responsive.img-thumbnail:hover {
+    box-shadow: 
+     transform: scale(1.025);
+    -o-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    -moz-transform: scale(1.025);
+    -webkit-transform: scale(1.025);
+}
+
+
+button.btn.btn-outline-primary.btn-sm {
+    background: white; 
+    border: 1px solid black; 
+    margin-bottom: 15%; 
+    
+}
+
+button.btn.btn-outline-primary.btn-sm:hover {
+    color: white; 
+    background: black; 
+    
+}
+
+/* Footer */
+
+.footer {
+    height: 25%; 
+    background: black; 
+    color: white;
+    padding-top: 3%; 
+    padding-bottom: 3%;
+}
+
+/* About Page */
+
+.jumbotron {
+    background-image: url("/About/about-header.jpg"); 
+    background-size: cover;  
+    margin-bottom: none;
+    max-height: 33%; 
+    padding-bottom: 49%;  
+    padding-top: -25%; 
+    
+}
+
+.about-header {
+    font-size: 4em; 
+    margin-top: 2%; 
+    margin-bottom: 3%; 
+}
+
+.about p {
+    margin-bottom: 2%; 
+}
+
+.about {
+    margin-bottom: 5%; 
+    border: 2px solid black; 
+    padding: 5%; 
+}
